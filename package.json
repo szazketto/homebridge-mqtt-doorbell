@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-mqtt-doorbell",
+  "version": "0.0.1",
+  "description": "Homebridge plugin to get a doorbell via mqtt",
+  "note": "peerDependencies is hardcoded to peerDepdendencies in homebridge!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: configure and run homebridge to start\" && exit 1"
+  },
+  "engines": {
+    "node": ">4.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szazketto/homebridge-mqtt-doorbell.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "MQTT",
+    "Doorbell"
+  ],
+  "dependencies": {
+    "mqtt": "^1.6.3"
+  },
+  "author": {
+    "name": "Szasz Peter"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szazketto/homebridge-mqtt-doorbell/issues"
+  },
+  "homepage": "https://github.com/szazketto/homebridge-mqtt-doorbell",
+  "devDependencies": {}
+}
